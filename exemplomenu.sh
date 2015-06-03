@@ -51,9 +51,9 @@ listarUsuarios(){
 	for i in $(cat /etc/passwd | cut -d: -f1);do
 		echo "====  $i  ==="
 	done
-	read	
+	read
 }
-	
+
 OPC=0
 while [ $OPC -ne 5 ];do
     clear
